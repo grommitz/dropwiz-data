@@ -1,0 +1,9 @@
+server:
+  type: simple
+  maxThreads: 128
+  applicationContextPath: /rest
+  adminContextPath: /admin
+  connector:
+    type: http
+    port: 8082
+    
